@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Data Connector</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.ts" type="module"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Twitter Data Connector</h1>
+    <div class="form-group">
+      <label for="username">Twitter Username:</label>
+      <input type="text" id="username" placeholder="Enter Twitter username" />
+    </div>
+    <div class="form-group">
+      <label for="limit">Max Tweets:</label>
+      <input type="number" id="limit" placeholder="Enter max number of tweets" />
+    </div>
+    <div class="button-container">
+      <button id="submitButton" disabled>Loading...</button>
+    </div>
+  </div>
+</body>
+</html>

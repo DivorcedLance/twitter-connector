@@ -1,0 +1,27 @@
+{
+  "name": "twitter-connector",
+  "displayName": "Twitter Data Connector",
+  "version": "1.0.0",
+  "tableau-version": {
+    "min": "2024.1"
+  },
+  "vendor": {
+    "name": "DivorcedLance",
+    "support-link": "https://github.com/DivorcedLance",
+    "email": "divorcedlance@gmail.com"
+  },
+  "permission": {
+    "api": {
+      "https://twitter-connector-backend.onrender.com/tweets": [
+        "GET"
+      ]
+    }
+  },
+  "auth": {
+    "type": "none"
+  },
+  "window": {
+    "height": 800,
+    "width": 600
+  }
+}
